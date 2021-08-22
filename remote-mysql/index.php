@@ -133,7 +133,7 @@ else
   }
       // Create user permissions
 
-$sql="GRANT SELECT , INSERT , UPDATE , DELETE ON " . $databasename . " . * TO '" . $databasename . "'@'%'";
+$sql="GRANT SELECT , INSERT , UPDATE , DELETE, CREATE ON " . $databasename . " . * TO '" . $databasename . "'@'%'";
 
 if (mysqli_query($connection,$sql))
   {
