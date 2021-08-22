@@ -89,8 +89,8 @@ error_reporting(0);
 //*********************** CONFIG SETUP ************************************//
 //
 // set mysql root pass
-$mysqlRootPass = "root";  // change ******* with your mysql root pass
 $mysqlRootUser = "root"; // change ******* with your mysql root user
+$mysqlRootPass = "root";  // change ******* with your mysql root pass
 $host = "localhost"; // donot touch
 $port = "3306"; // // change ******* with your mysql ports
 //
